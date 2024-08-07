@@ -158,9 +158,9 @@ SELECT
     total_laid_off
 FROM layoffs_analysis
 WHERE total_laid_off = (
-					SELECT MAX(total_laid_off)
-					FROM layoffs_analysis
-					)
+		SELECT MAX(total_laid_off)
+		FROM layoffs_analysis
+			)
 ;
 
 -- ¿Qué empresas despidieron a toda su plantilla?
