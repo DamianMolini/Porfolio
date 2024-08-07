@@ -3,7 +3,7 @@
 -- 1: Eliminar duplicados
 -- 2: Estandarizar los datos
 -- 3: Valores nulos o en blanco
--- 4: Eliminar columnas innecesarias
+-- 4: Eliminar columnas o registros innecesarios
 
 -- Cambiamos el nombre a "layoffs_raw" para que la tabla original quede intacta
 ALTER TABLE layoffs
